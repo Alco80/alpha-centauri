@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Centauri</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- I really liked the jumbotron -->
+
+    <div class="jumbotron">
+        <h1 class="display-2 animate__animated animate__fadeInUp main-header">Alpha Centauri</h1>
+        <p class="lead animate__animated animate__bounce">All about Alpha Centauri</p>
+        <!-- button section -->
+        <p class="sub-text animate__animated animate__bounce">Learn about our neighbouring star system and mankind's
+            newest destination. </p>
+
+        <a class="btn btn-custom btn-lg text-light" data-selection="001" href="alpha-centauri.html" role="button">Alpha
+            Centauri</a>
+        <a class="btn btn-custom btn-lg text-light" data-selection="002" href="proxima-a-b.html" role="button">Proxima
+            Centauri b</a>
+        <a class="btn btn-custom btn-lg text-light" data-selection="003" href="lightsail.html" role="button">Light
+            Sail</a>
+        <a class="btn btn-custom btn-lg text-light" data-selection="004" href="travel.html" role="button">Travel</a>
+    </div>
+    <div class="container" id="sub-content">
+        <!-- HTML goes here -->
+    </div>
+
+    <section class="mid-content">
+        <h2 class="mid-text display-4 text-center fw-bolder">
+            Alpha Centauri in Science Fiction
+        </h2>
+
+        <div class="screen-shots col-sm-12 px-4">
+            <div class="row">
+
+                <div class="avatar-img d-inline-flex">
+                    <img src="img/avatar1.jpg" alt="..." class="shot">
+                    <img src="img/avatar2.jpg" alt="..." class="shot">
+                    <img src="img/avatar3.jpg" alt="..." class="shot">
+                    <img src="img/avatar4.jpg" alt="..." class="shot">
+                </div>
+
+            </div>
+        </div>
+        <a class="btn btn-custom btn-lg text-light avatar-info" data-selection="005" href="avatar.html"
+            role="button">Click Here For More Info!</a>
+    </section>
+    <div class="container" id="avatar-sub-content">
+        <!-- HTML goes here -->
+    </div>
+
+    <section class="nasa d-flex flex-column">
+        <h2 class="nasa-title text-center display-4 ">To Infinity And Beyond!</h2>
+        <div class="nasa-main">
+            <p class="nasa-info">NASA's future will continue to be a story of human exploration, technology, and
+                science. We will go back to the Moon to learn more about what it will take to support human exploration
+                to Mars and beyond. We will continue to nurture the development of a vibrant low-Earth orbit economy
+                that builds on the work done to date by the International Space Station. NASA engineers will develop new
+                technologies to improve air transport at home and meet the challenges of advanced space exploration. Our
+                scientists will work to increase an understanding of our planet and our place in the universe. We will
+                continue to try to answer the question, “Are we alone?”</p>
+            <!-- * Taken from NASA website -->
+        </div>
+    </section>
+    <footer><small>Design Copyright &copy; Alicia Corke 2023 </small></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/fetch.js"></script>
+    <script src="js/main.js"></script>
+</body>
+<!-- ! Will add proper content in finished version -->
+
+</html>

@@ -1,0 +1,37 @@
+[
+    {
+        "recordNumber": "001",
+        "keyword": "Star system",
+        "name": "Alpha Centauri",
+        "imgSrc": "img/Alpha-Centauri-Beta-Centauri-Proxima-Centauri.jpg",
+        "info": "<p>Alpha Centauri is a triple star system in the southern constellation of Centaurus. It consists of 3 stars: Alpha Centauri A,nAlpha Centauri B and Proxima Centauri. Proxima Centauri is also the closest star to the Sun at 4.2465 light-years.</p> <p>Alpha Centauri A and B are Sun-like stars Class G and K. Together they form the binary star system Alpha Centauri AB. To the naked eye, the two main components appear to be a single star. It is the brightest star in the constellation and the third-brightest in the night sky, outshone only by Sirius and Canopus.</p>"
+    },
+    {
+        "recordNumber": "002",
+        "keyword": "Planets",
+        "name": "Proxima Centauri b",
+        "imgSrc": "img/proxima-b.jpg",
+        "info": "<p>Proxima Centauri b, sometimes referred to as Alpha Centauri Cb, is an exoplanet orbiting within the habitable zone of the red dwarf star Proxima Centauri, which is the closest star to the Sun and part of the larger triple star system Alpha Centauri. It is about 4.2 ly (1.3 pc) from Earth in the constellation Centaurus, making it, along with the currently-disputed Proxima c, and Proxima d the closest known exoplanets to the Solar System.Proxima Centauri b orbits its parent star at a distance of roughly 0.05 AU (7.5 million km; 4.6 million mi) with an orbital period of approximately 11.2 Earth days. Its other properties are only poorly understood, but it is believed to be a potentially Earth-like planet with a minimum mass of at least 1.07 M🜨 and only a slightly larger radius than that of Earth.<p> The planet orbits within the habitable zone of its star; but it is not known whether it has an atmosphere. Proxima Centauri is a flare star with intense emission of electromagnetic radiation that could strip an atmosphere off the planet. The planet's proximity to Earth offers an opportunity for robotic space exploration, for example, with the Breakthrough Starshot project.</p>Announced on 24 August 2016 by the European Southern Observatory (ESO), Proxima Centauri b was confirmed via several years of using the method of studying the radial velocity of its parent star. Furthermore, the discovery of Proxima Centauri b, a planet at habitable distances from the closest star to the Solar System, was a major discovery in planetology[5] and has drawn interest to the Alpha Centauri star system as a whole that Proxima itself is a member of.[6]</p>"
+    },
+    {
+        "recordNumber": "003",
+        "keyword": "Space Probe",
+        "name": "Breakthrough Starshot",
+        "imgSrc": "img/starshot-light-sail.jpg",
+        "info": "<p>Breakthrough Starshot is a research and engineering project by the Breakthrough Initiatives to develop a proof-of-concept fleet of light sail interstellar probes named Starchip,[1] to be capable of making the journey to the Alpha Centauri star system 4.37 light-years away. It was founded in 2016 by Yuri Milner, Stephen Hawking, and Mark Zuckerberg.</p><p>A flyby mission has been proposed to Proxima Centauri b, an Earth-sized exoplanet in the habitable zone of its host star, Proxima Centauri, in the Alpha Centauri system.At a speed between 15% and 20% of the speed of light, it would take between 20 and 30 years to complete the journey, and approximately 4 years for a return message from the starship to Earth.</p><p>The Starshot concept envisions launching a \"mothership\" carrying about a thousand tiny spacecraft (on the scale of centimeters) to a high-altitude Earth orbit for deployment. A phased array of ground-based lasers would then focus a light beam on the crafts' sails to accelerate them one by one to the target speed within 10 minutes, with an average acceleration on the order of 100 km/s2 (10,000 ɡ), and an illumination energy on the order of 1 TJ delivered to each sail. A preliminary sail model is suggested to have a surface area of 4 m × 4 m.[19][20] An October 2017 presentation of the Starshot system model[21][22] examined circular sails and finds that the beam director capital cost is minimized by having a sail diameter of 5 meters. </p>"
+    },
+    {
+        "recordNumber": "004",
+        "keyword": "Light speed",
+        "name": "Interstaller Voyage",
+        "imgSrc": "img/warp-speed-ship-design.jpg",
+        "info": "<p>What if we could travel faster than light? Countless sci-fi books and movies are built around the concept, which brings with it challenges to physicists’ understanding of how space and time actually work. Still, a few years ago, Harold “Sonny” White – who leads NASA’s Advanced Propulsion Team at Johnson Space Center – claimed to have made a discovery that made plausible the idea of faster-than-light travel, via a concept known as the Alcubierre warp drive.This concept is based on ideas put forward by Mexican physicist Miguel Alcubierre in 1994. He suggested that faster-than-light travel might be achieved by distorting spacetime.</p>"
+    },
+    {
+        "recordNumber": "005",
+        "keyword": "Avatar",
+        "name": "Pandora",
+        "imgSrc": "img/avatar5.jpg",
+        "info": "<p>In the film, Pandora is depicted as being located in the Alpha Centauri A system, about 4.37 light-years (276,000 AU) from Earth. It is one of the many natural satellites orbiting the gas giant Polyphemus,[3] named for the Polyphemus of Greek mythology. Pandora's atmosphere is a mix of nitrogen, oxygen, carbon dioxide, xenon, methane, ammonia and hydrogen sulfide, the latter three of which are unbreathable for humans, who wear Exo-Packs when outside their buildings or vehicles. The atmosphere of Pandora does have enough oxygen for humans (21%-22%), but too much carbon dioxide (16%-18%). The Na'vi have special organs (similar to kidneys) called Wichow that take advantage of this atmosphere to extract greater amounts of oxygen for their bloodstream. These organs use carbon dioxide and water in their bodies and convert them into methane and oxygen. The methane is exhaled back into the atmosphere. The extra oxygen is added to the Na'vi bloodstream to help power their extra-large bodies and powerful muscles. This process accounts for the small amount of methane in the Pandoran atmosphere. At rest or when the Na'vi are dormant, those same organs can convert some small amounts of methane back into carbon dioxide and water to replenish their water supply if needed. This is why humans can survive with just a filtration system (Exo-Packs), but the Navi need higher amounts of carbon dioxide to function. The high level of carbon dioxide and other gases such as hydrogen sulfide also help keep the Na'vi bloodstream a slightly acidic pH around 5.25-5.75 (humans 7.35-7.45).</p>"
+    }
+]

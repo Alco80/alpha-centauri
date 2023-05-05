@@ -1,0 +1,200 @@
+/*  font-family: 'Bruno Ace SC', cursive;
+font-family: 'Open Sans', sans-serif; */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+:root {
+    /* TYPOGRAPHY */
+
+    --heading: 'Bruno Ace SC', cursive;
+    --body-text: 'Open Sans', sans-serif;
+
+    /* COLOUR */
+
+    --primary: #000;
+    --secondary: #0b006c;
+    --accent: #585858;
+    --btn-clr: #2c1b1b;
+    --font-clr: #e8e8e8;
+
+}
+
+body {
+    background-color: #fefefe;
+}
+
+/* MAIN HEADER */
+
+.jumbotron {
+    background-image: url(../img/proxima-b.jpg);
+    background-color: #5f5f5f;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Typography */
+
+.main-header {
+    font-family: var(--heading);
+    color: var(--font-clr);
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: fadeInUp;
+    animation-duration: 2s;
+    /* animate__fadeInUp */
+}
+
+.lead,
+.sub-text {
+    /* animate__fadeIn */
+    color: var(--font-clr);
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin: 0 0.5rem;
+    animation: fadeIn;
+    animation-duration: 2s;
+}
+
+.sub-text {
+    padding-top: 1.2em;
+    padding-bottom: 1.5em;
+}
+
+.btn-custom {
+    background-color: #1c1c1c;
+    font-weight: 100;
+}
+
+.btn-custom:hover {
+    background-color: #0be3b8;
+    box-shadow: 0 0 20px #0be3b8;
+    text-decoration: underline;
+
+}
+
+#info-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#info-container {
+    margin: 0 0.5rem;
+    animation: fadeIn;
+    animation-duration: 2s;
+}
+
+#info-container img {
+    padding-left: 1.2em;
+    padding-top: 1.4em;
+}
+
+.alpha-info {
+    font-size: 1.5rem;
+    padding-left: 1.2em;
+    padding-top: 1.4em;
+    padding-bottom: 2em;
+}
+
+.avatar-img img {
+    width: 40%;
+    padding-left: .9em;
+}
+
+.avatar-info {
+    width: 100%;
+}
+
+.shuttle-img {
+    width: 40vw;
+}
+
+.nasa {
+    background-image: url(../img/space-shuttle1.jpg);
+    background-color: #6c6c6c;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    color: var(--font-clr);
+    padding-top: 2em;
+}
+
+.nasa-info {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    padding: 2em;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid var(--sub-text-clr);
+    padding: 1em;
+
+}
+
+/* Light and dark mode */
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #efefef;
+    }
+
+    p {
+        --sub-text-clr: #202020;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+    }
+
+    p,
+    .mid-text,
+    footer {
+        color: #fefefe;
+    }
+}
+
+/* LIGHT AND DARK MODE */
+
+/*    
+https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/ 
+      https://www.nngroup.com/articles/dark-mode/ --- This goes into some heavy interesting detail about eye health with dark and light mode
+      https://hub.appfire.com/business-intelligence-and-reporting/is-dark-mode-better-for-your-eye-health/
+      
+      */
+
+
+
+
+/* RESEARCH PART */
+
+
+/* The most interesting part about this topic would be how dark and light mode affects the eyes, and the fact that dark mode in particular can make or break a website.
+      Dark mode would be good for accessibility purposes for individuals with eye health problems(less glare for people with cataract and other issues), but for non-health related eyes, it can strain after a while because of the dark background and light text.
+      
+      
+      I'm a fan of dark mode and used CSS media query to add it to my webpage. My website is about Alpha Centauri, so the glowing green buttons give it a neat visual on the dark background. */
+
+
+/*  DARK PATTERNS */
+
+/*  https://www.wired.com/story/how-to-spot-avoid-dark-patterns/ 
+https://careerfoundry.com/en/blog/ux-design/dark-patterns-ux/ */
+
+/*  'Dark patterns' is an UX/UI term. It's to trick the user into clicking a button on something they don't want to do(e.i sign up for something), while the thing they want to do( e.i cancel notification), is very skewed or hard to find. 
+*/
+
+/* EXAMPLES OF DARK PATTERNS */
+
+/* When the user is on a website and they receive a pop-up notification to sign up for something, the user doesn't want to, but the cancel button is so tiny while the sign-up button is big and bright. The user feels like they have no choice but to sign-up. This is very bad for accessibility as well and it is bad business practice. This also goes for subscription buttons. The whole ordeal becomes frustrating for the user. */
+
+/* When the user is purchasing an item and the website's basket only shows the main cost, but then as soon as they get to the check-out there are additional charges(services fees, shipping cost, etc). The experience is overwhelming to the user once again.  */
