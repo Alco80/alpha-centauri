@@ -1,0 +1,2 @@
+# alpha-centauri
+Mini project
